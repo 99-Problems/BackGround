@@ -1,0 +1,1 @@
+E:\BackGround\ExcelToJson\TestPacker\obj\x86\Debug\ExcelToJsonConverter.csproj.AssemblyReference.cache

@@ -1,0 +1,18 @@
+[
+  {
+    "eventType": "1",
+    "limitTime": "20",
+    "needTime": "5",
+    "eventScore": "200",
+    "bonusScore": "80",
+    "staffCount": "1"
+  },
+  {
+    "eventType": "2",
+    "limitTime": "30",
+    "needTime": "8",
+    "eventScore": "500",
+    "bonusScore": "100",
+    "staffCount": "1"
+  }
+]

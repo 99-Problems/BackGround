@@ -1,0 +1,23 @@
+[
+  {
+    "unitID": "1",
+    "nameID": "10001",
+    "prefabName": "staff_1",
+    "assetPath": "unit",
+    "speed": "15"
+  },
+  {
+    "unitID": "2",
+    "nameID": "10002",
+    "prefabName": "staff_2",
+    "assetPath": "unit",
+    "speed": "30"
+  },
+  {
+    "unitID": "3",
+    "nameID": "10003",
+    "prefabName": "staff_3",
+    "assetPath": "unit",
+    "speed": "45"
+  }
+]

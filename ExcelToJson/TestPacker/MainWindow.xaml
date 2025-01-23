@@ -1,0 +1,86 @@
+<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="TestPacker.MainWindow"
+        Title="MainWindow" Height="626" Width="1006.836"
+        x:Name="abcd"
+        >
+    <Grid Height="595" VerticalAlignment="Top" HorizontalAlignment="Left" Width="728">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="157*"/>
+            <ColumnDefinition Width="410*"/>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="128*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="265*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <Frame Grid.ColumnSpan="4" Content="" Height="298" Margin="9,1,11,0" VerticalAlignment="Top" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Grid.RowSpan="2" Grid.Row="1"/>
+        <TextBox x:Name="__EditBox__ExcelPath" HorizontalAlignment="Left" Height="24" Margin="0,10,0,0" TextWrapping="NoWrap" Text="{Binding ExcelPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="532" Grid.Row="2" Grid.ColumnSpan="3" Grid.Column="1" TextChanged="__EditBox__ExcelPath_TextChanged" />
+        <Label Content="Excel File 위치" HorizontalAlignment="Left" Margin="12,10,0,0" VerticalAlignment="Top" Width="138" Grid.Row="2" Height="26"/>
+        <TextBox x:Name="__EditBox__JsonPath" Height="24" Margin="0,70,0,0" TextWrapping="Wrap" Text="{Binding OutputJsonPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="532" Grid.Row="2" Grid.ColumnSpan="3" Grid.Column="1" TextChanged="__EditBox__JsonPath_TextChanged"/>
+        <Label Content="Client Json 위치" HorizontalAlignment="Left" Margin="12,70,0,0" VerticalAlignment="Top" Width="113" Grid.Row="2" Height="26"/>
+        <Label Content="source 위치" HorizontalAlignment="Left" Margin="12,100,0,0" VerticalAlignment="Top" Width="113" Grid.Row="2" Height="26"/>
+        <Label Content="Server Json 위치" HorizontalAlignment="Left" Margin="12,130,0,0" VerticalAlignment="Top" Width="113" Grid.Row="2" Height="26"/>
+        <TextBox x:Name="___EditBox__JsonPath_Copy" Height="24" Margin="0,130,39,0" TextWrapping="Wrap" Text="{Binding OutputJsonPathServer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" HorizontalAlignment="Right" Width="532" Grid.Row="2" Grid.ColumnSpan="3" Grid.Column="1"/>
+        <ProgressBar Name ="pbStatus" Margin="8,301,104,0" Minimum="0"  VerticalAlignment="Top" Maximum="100" Height="26" Grid.Row="2" Grid.ColumnSpan="4" />
+        <Button x:Name="___Button___Extract_" Content="&#xD;&#xA;Convert" VerticalAlignment="Top" Margin="34,301,0,0" Height="53" Padding="0,0,0,20" Click="Button_Click_Export" Grid.Row="2" RenderTransformOrigin="0.526,0.845" HorizontalAlignment="Left" Width="84" Grid.Column="3"/>
+        <ListBox ItemsSource="{Binding Rows, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="___Log___ListBox_" Margin="7,339,103,1" Grid.Row="2" Grid.ColumnSpan="4" >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding Title}" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+        </ListBox>
+        <TextBox x:Name="___EditBox__JsonPath_Copy2" Height="24" Margin="0,100,0,0" TextWrapping="Wrap" Text="{Binding OuputSource, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="532" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="___EditBox__JsonPath_Copy1" Height="24" Margin="0,160,0,0" TextWrapping="Wrap" Text="{Binding OuputServerSource, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="532" Grid.Row="2" Grid.ColumnSpan="3" Grid.Column="1"/>
+        <Label Content="Server Source 위치" HorizontalAlignment="Left" Margin="12,160,0,0" VerticalAlignment="Top" Width="113" Grid.Row="2" Height="24"/>
+        <Label Content="Excel File 위치(서버전용)" HorizontalAlignment="Left" Margin="12,40,0,0" VerticalAlignment="Top" Width="138" Grid.Row="2" Height="26" FontSize="10"/>
+        <TextBox x:Name="EditBox_ServerExcelPath" HorizontalAlignment="Left" Height="24" Margin="0,39,0,0" TextWrapping="NoWrap" Text="{Binding ServerExcelPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="532" Grid.Row="2" Grid.ColumnSpan="3" Grid.Column="1"/>
+        <ListBox x:Name="___ListBox__Excel" Height="584" Margin="138,0,-262,0" VerticalAlignment="Top" SelectionChanged="ListBox_SelectionChanged" Grid.RowSpan="3" Grid.Column="3" Grid.Row="1"/>
+        <Button x:Name="___Button___ViewList" Content="&#xA;ViewList" VerticalAlignment="Top" Margin="36,444,11,0" Height="52" Padding="0,0,0,20" Click="Button_Click_View" Grid.Row="2" RenderTransformOrigin="0.526,0.845" Grid.Column="3"/>
+        <Button Margin="-30,0,0,533" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Click="Button_Click" Height="24" VerticalAlignment="Bottom" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left" Width="31">
+            <StackPanel Orientation="Horizontal">
+                <Image x:Name="iconimg" Source="open.ICO" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            </StackPanel>
+        </Button>
+        <Button Margin="-30,0,0,503" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Click="Button_Click1" Height="24" VerticalAlignment="Bottom" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left" Width="31">
+            <StackPanel Orientation="Horizontal">
+                <Image x:Name="iconimg1" Source="OPEN.ICO"/>
+            </StackPanel>
+        </Button>
+        <Button Margin="-30,0,0,473" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Click="Button_Click2" Height="24" VerticalAlignment="Bottom" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left" Width="31">
+            <StackPanel Orientation="Horizontal">
+                <Image x:Name="iconimg2" Source="OPEN.ICO"/>
+            </StackPanel>
+        </Button>
+        <Button Margin="-30,0,0,443" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Click="Button_Click3" Height="24" VerticalAlignment="Bottom" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left" Width="31">
+            <StackPanel Orientation="Horizontal">
+                <Image x:Name="iconimg3" Source="OPEN.ICO"/>
+            </StackPanel>
+        </Button>
+        <Button Margin="-30,0,0,413" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Click="Button_Click4" Height="24" VerticalAlignment="Bottom" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left" Width="31">
+            <StackPanel Orientation="Horizontal">
+                <Image x:Name="iconimg4" Source="OPEN.ICO"/>
+            </StackPanel>
+        </Button>
+        <Button Margin="-30,0,0,383" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Click="Button_Click5" Height="24" VerticalAlignment="Bottom" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left" Width="31">
+            <StackPanel Orientation="Horizontal">
+                <Image x:Name="iconimg5" Source="OPEN.ICO"/>
+            </StackPanel>
+        </Button>
+        <CheckBox Content="클라, 서버 전부출력" Grid.Column="1" Margin="335,5,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.RowSpan="2" Checked="IsJsonPathAllChecked" Unchecked="IsJsonPathAllUnChecked" Grid.ColumnSpan="3" Width="218" HorizontalAlignment="Left"/>
+        <CheckBox Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="94,74,0,0" Grid.Row="2" VerticalAlignment="Top" Checked="IsJsonPath_Checked" Unchecked="IsJsonPath_UnChecked" IsChecked="{Binding OutputJsonPathChecked}"/>
+        <CheckBox Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="94,134,0,0" Grid.Row="2" VerticalAlignment="Top" Checked="IsJsonPath2_Checked" Unchecked="IsJsonPath2_UnChecked" IsChecked="{Binding OutputJsonPathChecked2}"/>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,2 @@
+E:\BackGround\ExcelToJson\obj\x86\Debug\ExcelToJson.csproj.AssemblyReference.cache
+E:\BackGround\ExcelToJson\obj\x86\Debug\ExcelToJson.csproj.CoreCompileInputs.cache

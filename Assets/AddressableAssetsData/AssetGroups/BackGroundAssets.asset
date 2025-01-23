@@ -1,0 +1,583 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BackGroundAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: BackGroundAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 013900ee8b85d5848954588be886fa1e
+  m_SerializeEntries:
+  - m_GUID: 7db168abd755efc4cadac28c3737326f
+    m_Address: Assets/BackGround/Prefabs/scripts/unit/UnitInfo.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Script
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbcba7fd7ce3050428d20728ad23fedd
+    m_Address: Assets/BackGround/Prefabs/scripts/string/stringEnglish.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Script
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ea0998d3d02be349ba17a33b236c505
+    m_Address: Assets/BackGround/Prefabs/scripts/game/StageInfo.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Script
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b5219085e4ee4c42b0976f3aab7b243
+    m_Address: Assets/BackGround/Prefabs/scripts/game/EventInfo.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Script
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1681d5be7fc77834f98b7e9dd98e893d
+    m_Address: Assets/BackGround/Prefabs/sceneUI/warnIconObj.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5f1a5d8c36524086ac3ba5a75f10edf
+    m_Address: Assets/BackGround/Prefabs/sceneUI/Setting_Button.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61d2849875f92f3439e1134c415b10b7
+    m_Address: Assets/BackGround/Prefabs/sceneUI/HP_Bar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c44eacc7bd24afa48a75c1941252f6b1
+    m_Address: Assets/BackGround/Prefabs/sceneUI/Game_UI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f977311d431ff14da7c83d5af906b63
+    m_Address: Assets/BackGround/Prefabs/player/unit/staff_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bb3b9226d379ba42aeda5a0e92ca20b
+    m_Address: Assets/BackGround/Prefabs/player/unit/staff_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84dc56b8efe87b64ea577a25208c1220
+    m_Address: Assets/BackGround/Prefabs/player/unit/staff_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36813a0e9408118469a6f5ee7b31373d
+    m_Address: Assets/BackGround/Prefabs/player/room/WaitingRoom.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 059ed595fa9ac8a448dfe6e53d20b8a4
+    m_Address: Assets/BackGround/Prefabs/player/room/EventSpot.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cd690e6542a69742b0ebbca76831519
+    m_Address: Assets/BackGround/Prefabs/player/event/RoomContainer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d1066848e2fef047b8312a56259b373
+    m_Address: Assets/BackGround/Prefabs/sceneUI/Button.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd8db5f9e064e4668acdf9aee5f73757
+    m_Address: Assets/BackGround/Prefabs/popup/PopupSetting/PopupSetting.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e419163d61859814cbb9d7795c906b4d
+    m_Address: Assets/BackGround/Prefabs/popup/PopupSelectStaff/PopupSelectStaff.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf6fba8636d5213438d19eb3e67aeb80
+    m_Address: Assets/BackGround/Prefabs/popup/PopupPush/PopupPush.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ffabb30666e771468bc72391b2d6b20
+    m_Address: Assets/BackGround/Prefabs/player/event/Event_Patient.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6df0df6272c2cba4792a1eab6ea84e50
+    m_Address: Assets/BackGround/Prefabs/player/event/Event_Ball.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f70da3fcac84f7e41b6b0414cedf3a6f
+    m_Address: Assets/BackGround/Prefabs/default/ingame_loading.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65d476bcefce0a044b30a74e3ba23b33
+    m_Address: Assets/BackGround/Prefabs/player/event/EventController.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6944baf3ee928a54aa0ea7842c34cb90
+    m_Address: Assets/BackGround/Prefabs/camera/Camera.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2557f2abe3071c44e9fe675de258450b
+    m_Address: Assets/BackGround/Prefabs/popup/PopupPause/PopupPause.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c4516958300fda4a91ee2c64a016ef9
+    m_Address: Assets/BackGround/Prefabs/popup/PopupInGameResult/PopupInGameResult.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 992ef868ccb70c742b7e1fa76466fe6a
+    m_Address: Assets/BackGround/Prefabs/popup/PopupCountDown/PopupCountDown.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ded353751c6194429c64d5850f8c86c
+    m_Address: Assets/BackGround/Prefabs/player/unit/StaffOrigin2 Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc1e08e14624c8741bb442e38099eed7
+    m_Address: Assets/BackGround/ui/UIBackGround_Image/PopUp_Example.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86320a31a303b8b45b96577fa4b30f05
+    m_Address: Assets/BackGround/ui/UIBackGround_Image/lab_Image.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e85b6c32a31f0854bad4ad48c75d5dc4
+    m_Address: Assets/BackGround/ui/UIBackGround_Image/Image_Stanby.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7a60a6432c88634b9303c8d73af7b61
+    m_Address: Assets/BackGround/ui/UIBackGround_Image/Image_Lobby_BackGround.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c253408c82a23a44b86d64e7099058bf
+    m_Address: Assets/BackGround/ui/UIBackGround_Image/Image_Lobby.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f552af44b1077ae46b0be654e9d3ae8e
+    m_Address: Assets/BackGround/ui/UIBackGround_Image/Image_Loading.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f9841a3be7502c4eb4bda9e0571d94c
+    m_Address: Assets/BackGround/ui/UIBackGround_Image/BackGround_Logo.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d17de567e9a128d409932e14360ed633
+    m_Address: Assets/BackGround/ui/Slider_HealthBar_Boss.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25fef1951633160499a73e55eb444e10
+    m_Address: Assets/BackGround/ui/resource/Timer_Fill_Amount.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78b3e96079f8a4c05a3f6d5919d4156a
+    m_Address: Assets/BackGround/ui/resource/Slider_Icon04_Fill_Red.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ddc2082251c84e67adbea97fdabceb1
+    m_Address: Assets/BackGround/ui/resource/Slider_Icon04_Fill_Green.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af4b637d3036e42fbbe9fa0e20b997d4
+    m_Address: Assets/BackGround/ui/resource/Slider_Basic04_DividerLine.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c426b035919094016adb99e1349aa315
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Switch_Handle_On.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1b1739b99fa046a78d969b1957e55bb
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Switch_Handle_Off.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0363d21a84dc6491e831bae874edc6ad
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Switch_Bg_On.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1e436d26683241d787e58854a040e63
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Switch_Bg_Off.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6124341aca5a24f1c8ffa878bf205e93
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Slider_Handle_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 228b09b7fa1c5455eab8432a85fac4ee
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Setting_Popup_TitleLine.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 901d64fc6ad9d44799c2ad0fd4f182d2
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Icon_PictoIcon_Sound_on.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1f42bbbfffc44202b66381ab8b622ee
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Icon_PictoIcon_Music_off.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6de2a7823f2e4282b6a118ee77c977e
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Icon_PictoIcon_Haptic.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdcbe28f1d35041b091b566b1f0f7bce
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Icon_PictoIcon_Bell.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09a17b3899e8141edb6e0745ab518a12
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Icon_LanguageFlag_Small_Eng.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70f78e062098c4496b852abefff63acf
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Icon_CloseButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75bcd0b7eff514a1b963792ac5ce380c
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/Common_White_Box.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb3db5b0868bc4f348e3d3a1dfbf32a8
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/BackGround_Setting_Popup.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5551461a712fd427aa2b059aac398cd4
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/BackGround_Dimed.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93c93e80f179c4cae911a48ab2fc913b
+    m_Address: Assets/BackGround/ui/resource/PopupSetting/BackGround_CloseButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22f9e4f0d22a0a5499a980bc0f118fec
+    m_Address: Assets/BackGround/ui/resource/Icon_Timer.Png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 221db54c6537e4c20bbbd4071f86e4fd
+    m_Address: Assets/BackGround/ui/resource/Icon_Setting.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2350fdbe01c4d42649eaf2b3259e2021
+    m_Address: Assets/BackGround/ui/resource/Icon_PictoIcon_Exit_s.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21cb8c775421e4096915fe18192a6f63
+    m_Address: Assets/BackGround/ui/resource/Icon_Heart.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d22f56b817e94a6e843ab175af687bc
+    m_Address: Assets/BackGround/ui/resource/HpBar_BackGround.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 772b2b70f8b4a8b47a0347d4fd46c18c
+    m_Address: Assets/BackGround/ui/resource/HP_Dividing_line.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 852e8aa9257ad44d3914c67e159ae8b2
+    m_Address: Assets/BackGround/ui/resource/Common_Popup_Line.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 742f52afe0a104f478d877db51a3321a
+    m_Address: Assets/BackGround/ui/resource/Button_Circle147_Navy.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 789daf59ae2a04a998499c49e940e31b
+    m_Address: Assets/BackGround/ui/resource/Button_Circle147_Gray.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bbcba4e267be464998897741b81d508
+    m_Address: Assets/BackGround/ui/resource/Button01_Blue.Png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4248a83eb05bbb46aece9984a05a7da
+    m_Address: Assets/BackGround/ui/resource/AlertMark_UI.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4542559b4e172934787f06ec9c13f985
+    m_Address: Assets/BackGround/ui/Canvas.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa9fdc7ac23d342798922793111065d0
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 40 SDF Atlas.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - font
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50c12c23294124aa48490c44ac65a9e4
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 40 SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - font
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51bda5a7ed19c4c39bbb02ae0c80c2c1
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 50 SDF Atlas.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - font
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2f49fe8c22d94f9a9e6cd06ad490155
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 50 SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - font
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acf7cf593a2970345a340eaab236b90b
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 40_LineOpacity.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc08f67cc1c6df1458981b4d7b8c8cb1
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 40_LineOpacityTitle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6b398b6657815742838a80f4663ffac
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 40_Cream.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0547b3f026f10cd49a35445962869087
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 40_LineTitle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32c5bdb5e2241d24199013830bb3ee10
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 40_Line.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68ebf0eee034c65468a1827f6cf9d70a
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 40_Default.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52598fb1c4bac7444a0e7be0c8c65380
+    m_Address: Assets/BackGround/ui/font/LilitaOne-Regular Outline 40_LineWhite.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05d8a1f0de7f62d489ce058268d1dd3b
+    m_Address: Assets/BackGround/ui/font/PPFontMat_Default.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da48ca8fefb3c9843a36e72fd9c68929
+    m_Address: Assets/BackGround/ui/font/PPFontMat_Line.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afad68b3854609d4e844b7508eea0297
+    m_Address: Assets/BackGround/ui/font/PPFontMat_Line_Cream.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7667f2a9b48b6b54db2070455c673137
+    m_Address: Assets/BackGround/ui/font/PPFontMat_Line_White.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b75b20618658cb946952b1f21c225fe0
+    m_Address: Assets/BackGround/ui/font/PPFontMat_LineOpacity.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbf26835eeed8504ba7f38e09c2c50c9
+    m_Address: Assets/BackGround/ui/font/PPFontMat_LineOpacityTitle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de2c06f227a94f94d881fe2418155116
+    m_Address: Assets/BackGround/ui/font/PPFontMat_LineTitle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mat
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91d68a03944ee0b40a6ab61306c8594e
+    m_Address: Assets/BackGround/Prefabs/Effect/Dust.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Particle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da164d9c8e3d743f982375327aab0086
+    m_Address: Assets/BackGround/Prefabs/Effect/Highlight.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Particle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6697264016cfadb45b70dd535204b724
+    m_Address: Assets/BackGround/Prefabs/Effect/Test.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Particle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d71acdde421ef4404aabb9f4d9370a89
+    m_Address: Assets/BackGround/ui/Example/PopupDetailInfo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a3781002c432ee44973967619ace89f
+    m_Address: Assets/BackGround/ui/resource/Button01_Green.Png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3ce2466c89e0ef499c4662822e3da72
+    m_Address: Assets/BackGround/ui/Example/PopupRename.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b09808f291d88974d993dbafc575366b
+    m_Address: Assets/BackGround/Prefabs/Effect/Clear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Particle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22678a019ca8113459f9cfe36645d622
+    m_Address: Assets/BackGround/ui/resource/BlueTextBg.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1ba0d41c3cd18c34798bb9dfdd08dd77, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f50c92f8d46de8146983be6a761f4f1d, type: 2}
+    - {fileID: 11400000, guid: ae21002253eedfa4890951c0f3054ffc, type: 2}
